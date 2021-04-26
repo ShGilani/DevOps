@@ -1,0 +1,28 @@
+devOps/agile practices for software development
+
+CI/CD pipeline:
+-----------------------
+Automated pipeline which provides quick feedback (in the form of notification) (twice a day). Manual way is less productive.
+a runnable specification of the steps 
+
+Continuous Integration: Build, Run the test
+Continuous Deployment/Delivery: Deploys a new version of the application (CD) to an Env/Infrastructure.
+
+central repository - Code changes are merged multiple times a day.
+
+Trigger: new code merge / auto-schedule / manual initiation / result of other pipeline
+
+Build Stage -> Test Stage ->
+
+Build Stage: compile -> build docker image -> 
+
+Test Stage: Run Automated Tests / Junits / Integration 
+
+
+
+
+
+
+
+
+
