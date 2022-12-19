@@ -1,0 +1,29 @@
+It is generally recommended that you separate areas of concern by using one service per container.
+
+
+Docker Commands:
+----------------------
+test:
+docker version
+
+To list the details of all containers, including stopped containers:
+docker ps -a
+
+docker images ls
+
+docker container ls -a
+
+When you stop a container, it is not automatically removed unless you started it with the --rm flag
+
+To remove all stopped Containers:
+docker container prune
+
+By default, all stopped containers are removed. You can limit the scope using the --filter flag. For instance, the following command only removes stopped containers older than 24 hours:
+docker container prune --filter "until=24h"
+
+cleans up dangling images:
+docker image prune
+
+
+
+
