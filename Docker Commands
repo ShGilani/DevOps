@@ -1,4 +1,11 @@
-It is generally recommended that you separate areas of concern by using one service per container.
+* It is recommended that you separate areas of concern by using one service per container.
+Each container should do one thing and do it well.
+
+* Containers, by default, run in isolation and don’t know anything about other processes or containers on the same machine.
+
+
+
+
 
 
 Docker Commands:
